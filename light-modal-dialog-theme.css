@@ -1,0 +1,61 @@
+* {
+    -fx-bg-color: white;
+    -fx-accent: #506198;
+}
+
+#window {
+    -fx-background-color: -fx-bg-color;
+    -fx-background-radius: 5px;
+    -fx-background-insets: 5px;
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+}
+
+#title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+#info-text-area {
+    -fx-font-size: 14px;
+}
+
+.element-node {
+    -fx-background-radius: 3px;
+}
+
+.element-node .symbol {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.s-block {
+    -fx-background-color: #D32143;
+}
+
+.s-block .label {
+    -fx-text-fill: white;
+}
+
+.p-block {
+    -fx-background-color: #2196F3;
+}
+
+.p-block .label {
+    -fx-text-fill: white;
+}
+
+.d-block {
+    -fx-background-color: #1ED11B;
+}
+
+.d-block .label {
+    -fx-text-fill: white;
+}
+
+.f-block {
+    -fx-background-color: #F2C80A;
+}
+
+.f-block .label {
+    -fx-text-fill: black;
+}
